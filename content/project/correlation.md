@@ -1,7 +1,7 @@
 ---
 title: Correlation
 author: Thomas
-date: []
+date:  '2018-08-29'
 slug: correlation
 categories: []
 tags:
@@ -10,6 +10,11 @@ header:
   caption: ''
   image: ''
 ---
+
+<style>
+body {
+text-align: justify}
+</style>
 
 ## Correlation
 
