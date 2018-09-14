@@ -16,7 +16,7 @@ body {
 text-align: justify}
 </style>
 
-# Artificial Intelligence(AI) Tutorial
+# Artificial Intelligence(AI)
 
 # What is AI?
 
