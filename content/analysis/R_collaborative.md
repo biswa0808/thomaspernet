@@ -81,7 +81,7 @@ have a creative project, make sure to add a new README. It will give a
 taste to the people to get to know more about the content of the
 project.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image1.png){width="5.833333333333333in"
+<img src="/project/collaboration/image1.png" >{width="5.833333333333333in"
 height="4.605262467191601in"}
 
 Now that the repository is created, you need to clone the project to
@@ -99,23 +99,23 @@ local machine.
 
 Click on file, new project and Version Control.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image2.png){width="5.833333333333333in"
+<img src="/project/collaboration/image2.png" >{width="5.833333333333333in"
 height="4.057376421697287in"}
 
 Select Git
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image3.png){width="5.833333333333333in"
+<img src="/project/collaboration/image3.png" >{width="5.833333333333333in"
 height="4.127357830271216in"}
 
 You will be asked to fill out some information about the URL and project
 name
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image4.png){width="5.833333333333333in"
+<img src="/project/collaboration/image4.png" >{width="5.833333333333333in"
 height="4.179268372703412in"}
 
 You can get the URL directly from the repository.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image5.png){width="5.833333333333333in"
+<img src="/project/collaboration/image5.png" >{width="5.833333333333333in"
 height="0.22892388451443568in"}
 
 Let the Project directory name blank, Rstudio will automatically pick up
@@ -158,7 +158,7 @@ across sessions in `.httr-oauth`.
 
 Go to your Google Console and copy the project ID.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image6.png){width="5.650348862642169in"
+<img src="/project/collaboration/image6.png" >{width="5.650348862642169in"
 height="2.9230763342082238in"}
 
 You can write the following code to connect with Big Query
@@ -181,17 +181,17 @@ use during the analysis.
 After you run the code, you will be prompted to allow the access to
 Google.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image7.png){width="5.833333333333333in"
+<img src="/project/collaboration/image7.png" >{width="5.833333333333333in"
 height="3.771317804024497in"}
 
 and then click on allow
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image8.png){width="5.566432633420822in"
+<img src="/project/collaboration/image8.png" >{width="5.566432633420822in"
 height="6.979020122484689in"}
 
 Google precisely how many bytes you consumed to import the data.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image9.png){width="4.181817585301837in"
+<img src="/project/collaboration/image9.png" >{width="4.181817585301837in"
 height="1.6923075240594925in"}
 
 The data are now stored in the memory of your machine. You can convert
@@ -224,13 +224,13 @@ is in the repo, everyone can access it.
 First, you need to save it locally. Then, find the icon with Git and
 click on Commit.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image10.png){width="2.0in" height="2.2937062554680665in"}
+<img src="/project/collaboration/image10.png" >{width="2.0in" height="2.2937062554680665in"}
 
 Commit in GitHub means you are about to add something to the repository.
 Each commit needs to have a description. It helps the other users to
 follow the change committed in the repository.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image11.png){width="5.833333333333333in"
+<img src="/project/collaboration/image11.png" >{width="5.833333333333333in"
 height="3.7774584426946634in"}
 
 The commit window in Rstudio contains different useful information. In
@@ -247,20 +247,20 @@ To make your first commit, you need to select:
 
 3.  Click on commit
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image12.png){width="5.833333333333333in"
+<img src="/project/collaboration/image12.png" >{width="5.833333333333333in"
 height="3.0047692475940506in"}
 
 The job is not done yet. You need to click on `the push` to push the
 data to GitHub.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image13.png){width="5.833333333333333in"
+<img src="/project/collaboration/image13.png" >{width="5.833333333333333in"
 height="2.337622484689414in"}
 
 GitHub sent you a successful message. You can close the message box.
 
 You can check if the file is in the GitHub page.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image14.png){width="5.833333333333333in"
+<img src="/project/collaboration/image14.png" >{width="5.833333333333333in"
 height="1.704359142607174in"}
 
 You successfully added the R script to GitHub. Now, you are ready to
@@ -270,7 +270,7 @@ This is done quickly by providing the different user the URL of your
 project. They can either browse on your GitHub page to find the project
 and clone it, or you can give them the URL
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image15.png){width="5.244755030621173in"
+<img src="/project/collaboration/image15.png" >{width="5.244755030621173in"
 height="2.6013976377952757in"}
 
 Your colleague needs to do the first steps in Rstudio to clone the repo
@@ -289,12 +289,12 @@ directly from Rstudio with the **pull** button.
 One of your colleagues added new lines of codes to the main files, and
 you want to have the latest branch, then you need to pull this update
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image16.png){width="3.482516404199475in"
+<img src="/project/collaboration/image16.png" >{width="3.482516404199475in"
 height="3.8321675415573053in"}
 
 Rstudio will automatically update the files in the local directory.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image17.png){width="5.833333333333333in"
+<img src="/project/collaboration/image17.png" >{width="5.833333333333333in"
 height="2.7380949256342957in"}
 
 **Step 6)**: Track changes
@@ -306,7 +306,7 @@ containing the codes but also markdown files as well.
 We added a markdown file to the GitHub repository. This file can, for
 example, be your working paper.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image18.png){width="5.833333333333333in"
+<img src="/project/collaboration/image18.png" >{width="5.833333333333333in"
 height="3.12582895888014in"}
 
 One of your colleagues is reading the files but wants to make comments,
@@ -317,13 +317,13 @@ he/she made so far.
 You or the other user can track this change in the history of the
 repository.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image19.png){width="5.833333333333333in"
+<img src="/project/collaboration/image19.png" >{width="5.833333333333333in"
 height="0.9754954068241469in"}
 
 If you click on the latest changes, you can see what have been changes
 and add comments to it.
 
-![](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/project/collaboration/image20.png){width="5.833333333333333in"
+<img src="/project/collaboration/image20.png" >{width="5.833333333333333in"
 height="2.8423556430446193in"}
 
 GitHub is an incredible place to start a project. Not only for the
