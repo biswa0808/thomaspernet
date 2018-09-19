@@ -1,3 +1,22 @@
+---
+title: R and GitHub
+author: Thomas
+date: '2018-09-19'
+slug: R
+categories: []
+tags:
+  - intro
+header:
+    caption: ''
+    image: ''
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
 R as a collaborative platform
 =============================
 
@@ -147,7 +166,7 @@ You can write the following code to connect with Big Query
     library(bigrquery)
     project <- "valid-pagoda-132423" 
     sql <- 'SELECT * FROM tuto.titanic_train'
-
+    
     tb <- bq_project_query(project, sql)
 
 The `sql` variables retrieve all the data from the dataset. This is not
@@ -179,9 +198,9 @@ The data are now stored in the memory of your machine. You can convert
 them into a data frame with the following code
 
     library(dplyr)
-
+    
     titanic <- bq_table_download(tb)
-
+    
     titanic %>% 
       select(-1) %>%
       head(10) %>%

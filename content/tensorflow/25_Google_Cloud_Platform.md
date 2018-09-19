@@ -1,3 +1,22 @@
+---
+title: Google Cloud platform
+author: Thomas
+date: '2018-09-19'
+slug: google
+categories: []
+tags:
+  - extra
+header:
+    caption: ''
+    image: ''
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
 Google Cloud Platform
 =====================
 

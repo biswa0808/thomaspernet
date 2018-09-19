@@ -641,7 +641,7 @@ df_string.printSchema()
 
 
 
-    
+
     from pyspark.ml.feature import StringIndexer
     #stringIndexer = StringIndexer(inputCol="label", outputCol="newlabel")
     #model = stringIndexer.fit(df)
@@ -1239,7 +1239,7 @@ train_data.groupby('label').agg({'label': 'count'}).show()
 
 ```
 
-    
+
     test_data.groupby('label').agg({'label': 'count'}).show()
 
 
