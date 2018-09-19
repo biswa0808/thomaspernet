@@ -13,8 +13,7 @@ header:
 ---
 
 <style>
-body {
-text-align: justify}
+body 
 </style>
 
 Google Cloud Platform
@@ -75,8 +74,7 @@ data, you can use SQL. Big Query allows the user to share not only the
 dataset but also the results of a query. Once you are satisfied with the
 queries, you can explore the data within Google Data Studio.
 
-<img src="/tensorflow/25_google_cloud/image1.png">{width="5.833333333333333in"
-height="3.533333333333333in"}
+<img src="/tensorflow/25_google_cloud/image1.png">
 
 You will proceed as follow:
 
@@ -111,14 +109,12 @@ new one. A unique ID will be provided.
 
 For this tutorial, you will use the project named `My Project`.
 
-<img src="/tensorflow/25_google_cloud/image2.png">{width="5.833333333333333in"
-height="3.2673261154855644in"}
+<img src="/tensorflow/25_google_cloud/image2.png">
 
 You need to find Cloud Storage. It is located in the drop-down menu in
 the left corner.
 
-<img src="/tensorflow/25_google_cloud/image3.png">{width="4.8811187664041995in"
-height="6.559440069991251in"}
+<img src="/tensorflow/25_google_cloud/image3.png">
 
 The first step you need to do is to create a *bucket*. This bucket will
 contain any data you need for your project. To give you an example,
@@ -131,8 +127,7 @@ and the CSV file.
 Click on `Create bucket.
 `
 
-<img src="/tensorflow/25_google_cloud/image4.png">{width="5.833333333333333in"
-height="0.5335356517935258in"}
+<img src="/tensorflow/25_google_cloud/image4.png">
 
 To create a bucket, you need to add the following items:
 
@@ -146,8 +141,7 @@ Note that you choose the storage class and regional with a good tradeoff
 between cost and performances. Keep in mind that during the first year,
 Google gives you \$300 to spend and lots of free space.
 
-<img src="/tensorflow/25_google_cloud/image5.png">{width="5.833333333333333in"
-height="4.249577865266842in"}
+<img src="/tensorflow/25_google_cloud/image5.png">
 
 Now that the bucket is created, you can add as many files as you want.
 In my opinion, it is more convenient to add data to the bucket by using
@@ -181,8 +175,7 @@ command to faster the transfer
 If you go back to Google Cloud Storage, you can see the file is
 successfully uploaded.
 
-<img src="/tensorflow/25_google_cloud/image6.png">{width="5.833333333333333in"
-height="1.660424321959755in"}
+<img src="/tensorflow/25_google_cloud/image6.png">
 
 You can add multiple files at the same times. Use `*` instead of the
 file names and all the CSV extension in the folder will be uploaded to
@@ -202,8 +195,7 @@ program interface.
 
 To access Big Query, go back to the console and search for Big Query.
 
-<img src="/tensorflow/25_google_cloud/image7.png">{width="2.9930063429571305in"
-height="6.419580052493438in"}
+<img src="/tensorflow/25_google_cloud/image7.png">
 
 In this workload, there are the:
 
@@ -213,8 +205,7 @@ In this workload, there are the:
 
 -   Query Viewer
 
-<img src="/tensorflow/25_google_cloud/image8.png">{width="5.833333333333333in"
-height="2.1498950131233596in"}
+<img src="/tensorflow/25_google_cloud/image8.png">
 
 So far, the project does not contain the dataset. You need to transfer
 the CSV file to the project.
@@ -230,8 +221,7 @@ on different projects, make sure to point to the right project:
 You need to create a dataset to store the data table. You name the
 dataset, `tuto`
 
-<img src="/tensorflow/25_google_cloud/image9.png">{width="5.833333333333333in"
-height="2.9359820647419075in"}
+<img src="/tensorflow/25_google_cloud/image9.png">
 
 Now that everything is set, you can transfer the data. The code below is
 the simplest way to move the data from the bucket to Big Query. You let
@@ -241,18 +231,15 @@ Big Query parse the data with the correct format. Not that, if you have
 
     bq --location=US load --autodetect --source_format=CSV tuto.titanic_train gs://tutorialgc/titanic_train.csv
 
-<img src="/tensorflow/25_google_cloud/image10.png">{width="5.833333333333333in"
-height="1.5459361329833772in"}
+<img src="/tensorflow/25_google_cloud/image10.png">
 
 You can browse the project and see that the data has been transferred.
 
-<img src="/tensorflow/25_google_cloud/image11.png">{width="4.727272528433946in"
-height="2.3356638232720908in"}
+<img src="/tensorflow/25_google_cloud/image11.png">
 
 Click on the `Schema` button to visualize how Big Query parsed the data.
 
-<img src="/tensorflow/25_google_cloud/image12.png">{width="4.867132545931758in"
-height="4.517482502187226in"}
+<img src="/tensorflow/25_google_cloud/image12.png">
 
 Copy and paste the following query into the query text area.
 
@@ -272,8 +259,7 @@ data processed by the query are presented. Below the `Query complete...`
 message, a table displays the query results with a header row containing
 the name of each column you selected in the query.
 
-<img src="/tensorflow/25_google_cloud/image13.png">{width="5.833333333333333in"
-height="3.420711942257218in"}
+<img src="/tensorflow/25_google_cloud/image13.png">
 
 ### Step 3) Give privileges to one member of the project
 
@@ -309,8 +295,7 @@ In our example, the account is
 After you paste the code in the terminal, a new file is added in the
 root directory
 
-<img src="/tensorflow/25_google_cloud/image14.png">{width="5.833333333333333in"
-height="0.8361428258967629in"}
+<img src="/tensorflow/25_google_cloud/image14.png">
 
 In here, it is `User/Thomas`
 
@@ -318,8 +303,7 @@ You can give temporary access to the dataset with the following code
 
     gsutil signurl -d 10m /Users/Thomas/key.json gs://tutorialgc/titanic_train.csv
 
-<img src="/tensorflow/25_google_cloud/image15.png">{width="5.833333333333333in"
-height="2.1385531496062993in"}
+<img src="/tensorflow/25_google_cloud/image15.png">
 
 It provides the temporary URL
 
@@ -342,26 +326,22 @@ can write the following query:
     SELECT *
     FROM tuto.titanic_train
 
-<img src="/tensorflow/25_google_cloud/image16.png">{width="5.833333333333333in"
-height="1.7257217847769029in"}
+<img src="/tensorflow/25_google_cloud/image16.png">
 
 If your dataset is big, you don't need to query all of the data, select
 the columns you need or filter the data.
 
 -   Step 5) Open Google Data Studio
 
-<img src="/tensorflow/25_google_cloud/image17.png">{width="4.391607611548556in"
-height="0.5734262904636921in"}
+<img src="/tensorflow/25_google_cloud/image17.png">
 
 To explore the data in Data Studio, click on the button
 `EXPLORE IN DATA STUDIO`. Make sure you run the query before.
 
 You will land in the Data Studio.
 
-<img src="/tensorflow/25_google_cloud/image18.png">{width="5.833333333333333in"
-height="2.220695538057743in"}
+<img src="/tensorflow/25_google_cloud/image18.png">
 
 You can play around and visualize the data.
 
-<img src="/tensorflow/25_google_cloud/image19.png">{width="5.833333333333333in"
-height="2.1743667979002623in"}
+<img src="/tensorflow/25_google_cloud/image19.png">

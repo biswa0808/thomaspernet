@@ -13,8 +13,7 @@ header:
 ---
 
 <style>
-body {
-text-align: justify}
+body 
 </style>
 
 R as a collaborative platform
@@ -81,8 +80,7 @@ have a creative project, make sure to add a new README. It will give a
 taste to the people to get to know more about the content of the
 project.
 
-<img src="/project/collaboration/image1.png" >{width="5.833333333333333in"
-height="4.605262467191601in"}
+<img src="/project/collaboration/image1.png" >
 
 Now that the repository is created, you need to clone the project to
 your local machine.
@@ -99,24 +97,20 @@ local machine.
 
 Click on file, new project and Version Control.
 
-<img src="/project/collaboration/image2.png" >{width="5.833333333333333in"
-height="4.057376421697287in"}
+<img src="/project/collaboration/image2.png" >
 
 Select Git
 
-<img src="/project/collaboration/image3.png" >{width="5.833333333333333in"
-height="4.127357830271216in"}
+<img src="/project/collaboration/image3.png" >
 
 You will be asked to fill out some information about the URL and project
 name
 
-<img src="/project/collaboration/image4.png" >{width="5.833333333333333in"
-height="4.179268372703412in"}
+<img src="/project/collaboration/image4.png" >
 
 You can get the URL directly from the repository.
 
-<img src="/project/collaboration/image5.png" >{width="5.833333333333333in"
-height="0.22892388451443568in"}
+<img src="/project/collaboration/image5.png" >
 
 Let the Project directory name blank, Rstudio will automatically pick up
 the name for you. Last, you need to select the path where you want to
@@ -158,8 +152,7 @@ across sessions in `.httr-oauth`.
 
 Go to your Google Console and copy the project ID.
 
-<img src="/project/collaboration/image6.png" >{width="5.650348862642169in"
-height="2.9230763342082238in"}
+<img src="/project/collaboration/image6.png" >
 
 You can write the following code to connect with Big Query
 
@@ -181,18 +174,15 @@ use during the analysis.
 After you run the code, you will be prompted to allow the access to
 Google.
 
-<img src="/project/collaboration/image7.png" >{width="5.833333333333333in"
-height="3.771317804024497in"}
+<img src="/project/collaboration/image7.png" >
 
 and then click on allow
 
-<img src="/project/collaboration/image8.png" >{width="5.566432633420822in"
-height="6.979020122484689in"}
+<img src="/project/collaboration/image8.png" >
 
 Google precisely how many bytes you consumed to import the data.
 
-<img src="/project/collaboration/image9.png" >{width="4.181817585301837in"
-height="1.6923075240594925in"}
+<img src="/project/collaboration/image9.png" >
 
 The data are now stored in the memory of your machine. You can convert
 them into a data frame with the following code
@@ -224,14 +214,13 @@ is in the repo, everyone can access it.
 First, you need to save it locally. Then, find the icon with Git and
 click on Commit.
 
-<img src="/project/collaboration/image10.png" >{width="2.0in" height="2.2937062554680665in"}
+<img src="/project/collaboration/image10.png" >
 
 Commit in GitHub means you are about to add something to the repository.
 Each commit needs to have a description. It helps the other users to
 follow the change committed in the repository.
 
-<img src="/project/collaboration/image11.png" >{width="5.833333333333333in"
-height="3.7774584426946634in"}
+<img src="/project/collaboration/image11.png" >
 
 The commit window in Rstudio contains different useful information. In
 green, Rstudio shows you elements are new in the file you are about to
@@ -247,21 +236,18 @@ To make your first commit, you need to select:
 
 3.  Click on commit
 
-<img src="/project/collaboration/image12.png" >{width="5.833333333333333in"
-height="3.0047692475940506in"}
+<img src="/project/collaboration/image12.png" >
 
 The job is not done yet. You need to click on `the push` to push the
 data to GitHub.
 
-<img src="/project/collaboration/image13.png" >{width="5.833333333333333in"
-height="2.337622484689414in"}
+<img src="/project/collaboration/image13.png" >
 
 GitHub sent you a successful message. You can close the message box.
 
 You can check if the file is in the GitHub page.
 
-<img src="/project/collaboration/image14.png" >{width="5.833333333333333in"
-height="1.704359142607174in"}
+<img src="/project/collaboration/image14.png" >
 
 You successfully added the R script to GitHub. Now, you are ready to
 share tour work with your colleague.
@@ -270,8 +256,7 @@ This is done quickly by providing the different user the URL of your
 project. They can either browse on your GitHub page to find the project
 and clone it, or you can give them the URL
 
-<img src="/project/collaboration/image15.png" >{width="5.244755030621173in"
-height="2.6013976377952757in"}
+<img src="/project/collaboration/image15.png" >
 
 Your colleague needs to do the first steps in Rstudio to clone the repo
 in their local machine. Once it is done, they can start to work with you
@@ -289,13 +274,11 @@ directly from Rstudio with the **pull** button.
 One of your colleagues added new lines of codes to the main files, and
 you want to have the latest branch, then you need to pull this update
 
-<img src="/project/collaboration/image16.png" >{width="3.482516404199475in"
-height="3.8321675415573053in"}
+<img src="/project/collaboration/image16.png" >
 
 Rstudio will automatically update the files in the local directory.
 
-<img src="/project/collaboration/image17.png" >{width="5.833333333333333in"
-height="2.7380949256342957in"}
+<img src="/project/collaboration/image17.png" >
 
 **Step 6)**: Track changes
 
@@ -306,8 +289,7 @@ containing the codes but also markdown files as well.
 We added a markdown file to the GitHub repository. This file can, for
 example, be your working paper.
 
-<img src="/project/collaboration/image18.png" >{width="5.833333333333333in"
-height="3.12582895888014in"}
+<img src="/project/collaboration/image18.png" >
 
 One of your colleagues is reading the files but wants to make comments,
 strikethrough, changes or anything else. He/she can change the primary
@@ -317,14 +299,12 @@ he/she made so far.
 You or the other user can track this change in the history of the
 repository.
 
-<img src="/project/collaboration/image19.png" >{width="5.833333333333333in"
-height="0.9754954068241469in"}
+<img src="/project/collaboration/image19.png" >
 
 If you click on the latest changes, you can see what have been changes
 and add comments to it.
 
-<img src="/project/collaboration/image20.png" >{width="5.833333333333333in"
-height="2.8423556430446193in"}
+<img src="/project/collaboration/image20.png" >
 
 GitHub is an incredible place to start a project. Not only for the
 collaborative platform but also to share your project with the world. It
