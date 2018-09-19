@@ -1,20 +1,3 @@
----
-title: numpy library
-author: Thomas
-date: '2018-08-29'
-slug: numpy
-categories: []
-tags:
-  - tf-install
-header:
-    caption: ''
-    image: ''
----
-
-<style>
-body {
-text-align: justify}
-</style>
 
 # What is numpy?
 
@@ -335,7 +318,7 @@ print('Vertical Append:', np.vstack((f, g)))
 
 To generate random numbers for Gaussian distribution use
 
-```numpy .random.normal(loc, scale, size)```
+numpy .random.normal(loc, scale, size)
 
 Here
 
