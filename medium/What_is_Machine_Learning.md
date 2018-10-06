@@ -140,7 +140,7 @@ of feature like equity, previous stock performances, macroeconomics index. The
 system will be trained to estimate the price of the stocks with the lowest
 possible error.
 
-https://sheetsu.com/tables/445f7de6c5
+https://sheetsu.com/tables/1de244dede
 
 **Unsupervised learning**
 
@@ -151,7 +151,7 @@ identify patterns)
 You can use it when you do not know how to classify the data, and you want the
 algorithm to find patterns and classify the data for you
 
-https://sheetsu.com/tables/eae54d0b0d
+https://sheetsu.com/tables/5bb980399e
 
 ###  Which Machine Learning Algorithm to select?
 

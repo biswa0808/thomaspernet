@@ -337,10 +337,7 @@ print("done exporting!")
 
 **Bonus**
 
-We can delete unecesarry files like the HTML or the spreadsheets in
-Google. For that, you need to copy the spreadsheet ID. There are in the
-variables `preparation_selenium` . After we have copy them, we can them
-we an use `remove_table`
+We can delete unnecessary files like the HTML or the spreadsheets in Google. For that, you need to copy the spreadsheet ID . There are in the variables `preparation_selenium` . After we have copy them, we an use `remove_table`
 
 ```python
 preparation_selenium
