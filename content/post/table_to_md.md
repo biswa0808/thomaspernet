@@ -62,8 +62,8 @@ Sheetsu offers an elegant solution in four steps.
 There is nothing new in this story so far. There is plenty of
 documentation on Google to explain this process. One shortcoming with
 the overall framework is all the manual steps. Imagine you need to
-import many links to Medium with all of them include a couple of tables.
-It becomes a hugely time-consuming and painful. In my case, I prefer to
+import many links to Medium when all of them include a couple of tables.
+It becomes a hugely time-consuming and painful situation. In my case, I prefer to
 grab a coffee or learn new stuff rather than doing all of these.
 Although, I really want to publish my tutorials on Medium. What a big
 deal!
@@ -72,11 +72,11 @@ Python program
 --------------
 
 I read an article one day about a programmer. The guy made a point, when
-he needs to perform twice the same thing, he wrote a code. I adopted a
+he needs to perform twice the same thing, he writes a code. I adopted a
 similar philosophy with a slight change. When something takes more than
 two repetitive steps, I write a code.
 
-Back to our Table to Medium example, this is clear there are more than
+Back to our *Table to Medium* example, this is clear there are more than
 two repetitive steps. In this story, I'll share with you the program I
 wrote to do everything automatically, giving you all the time you need
 to read other stories on Medium or go enjoy a coffee on a terrace while
@@ -84,14 +84,14 @@ your machine is working.
 
 A reminder on the fly, the program is fully automatic for MacOs user.
 The reason is, I'm a MacOs user and there is an awesome guy that wrote a
-program to publish markdown file to Medium. I haven't browse for such
+[program](https://www.npmjs.com/package/markdown-to-medium) to publish markdown file to Medium. I haven't browse for such
 program in Windows yet.
 
 ### Table to Medium
 
-In brief word, the program uses a valid URL, search for tables, creates
-one or more Google Spreadsheet, import them to Sheetsu, change the HTML
-file, save it as markdown format and publish it to Medium.
+In brief word, the program `table_to_medium` uses a valid URL, searches for tables, creates
+one or more Google Spreadsheet, imports them to Sheetsu, changes the HTML
+file, saves it as markdown format and publishes it to Medium.
 
 All of these steps above are done automatically.
 
@@ -111,8 +111,9 @@ perform one step manually. The reason I use Selenium is, Sheetsu API
 does not render the table in Medium. Their API saves the table in a JSON
 format, which is not read by Medium.
 
-Let's begin, you can install the program with this command `pip install git+https://github.com/thomaspernet/table_to_medium`. We will
-proceed in three steps:
+Let's begin, you can install the program with this command `pip install git+https://github.com/thomaspernet/table_to_medium`. 
+
+We will proceed in three steps:
 
 1.  Prepare the files
 
@@ -132,8 +133,7 @@ For instance, all my tutorials are stored locally.
 
 ![3](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/3.png)
 
-If I want to publish the first tutorial, I open the file and save it in
-HTML without style;
+If I want to publish the first tutorial, I open the file and save it in HTML without style.
 
 ![4](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/4.png)
 
@@ -145,9 +145,13 @@ This step helps you to get your token in Medium. You will need it later
 to publish your story. Go to settings in Medium and copy somewhere your
 token.
 
+![5](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/5.png)
+
 **Step 3: launch the code**
 
 The program is divided into four part
+
+**Workflow**
 
 ![6](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/6.png)
 
@@ -162,9 +166,7 @@ We need to declare two variables:
 
 -   The Url
     `https://thomaspernet.netlify.com/tensorflow/what-is-machine-learning/`
--   The path where we stored our Google authorization. You can follow
-    this tutorial to get your Access Google APIs
-    `/users/Thomas/Oath_Docker_Gcloud/Google_auth/`
+-   The path where we stored our Google authorization. You can follow this [tutorial](https://developers.google.com/identity/protocols/OAuth2) to get your Access Google APIs `/users/Thomas/Oath_Docker_Gcloud/Google_auth/`
 
 ```python
 url = "https://thomaspernet.netlify.com/tensorflow/what-is-machine-learning/"
@@ -172,7 +174,7 @@ path = '/users/Thomas/Oath_Docker_Gcloud/Google_auth/'
 import import_medium as md
 ```
 
-Then we declare the variable
+Then we declare the variables
 
 ```python
 make_table = md.Spreadsheet(url = url, path = path)
@@ -207,7 +209,7 @@ information:
 
 If you have Selenium installed in your machine, you can do this step. If
 you don't, you need to manually perform the creation in Sheetsu. Just
-copy the URL of the Google spreadsheet and copy them here
+copy the URL of the Google spreadsheet and copy them [here](https://sheetsu.com/table-for-medium').
 
 We need to locate where we put Selenium drivers. In my case, it is
 `/Users/Thomas/Selenium/chromedriver`. Now that we know where is the
@@ -247,8 +249,7 @@ used to publish on Medium.
 -   Path the markdown:
     `/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/medium/What_is_Machine_Learning.md`
 
-Note that, we **have to** use the extension `md`. `md` stands for
-markdown.
+Note that, we **have to** use the extension `md`. `md` stands for markdown.
 
 ```python
 PATH = "/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/medium/02_What_is_Machine_Learning_v8.html"
@@ -336,7 +337,7 @@ print("done exporting!")
 
 **Bonus**
 
-We can delete unecesarry files like the HTML or the spreadsheet in
+We can delete unecesarry files like the HTML or the spreadsheets in
 Google. For that, you need to copy the spreadsheet ID. There are in the
 variables `preparation_selenium` . After we have copy them, we can them
 we an use `remove_table`
