@@ -222,6 +222,8 @@ After you run the code, a new web browser is open. It will create as
 many new tables as in the original Url. Sheetsu will provide the Url to
 copy in our story.
 
+<iframe src="https://giphy.com/embed/RMOtIzoPPaqVdwxYLk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/RMOtIzoPPaqVdwxYLk"></a></p>
+
 We can use `list_sheetsu` to see the Sheetsu' Url.
 
 ```python
@@ -294,6 +296,8 @@ print("done exporting!")
 ```
 
 We are redirected to Medium with our article as a draft.
+
+<iframe src="https://giphy.com/embed/7JC7d18l7NHgMhWq8a" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/7JC7d18l7NHgMhWq8a"></a></p>
 
 The full program
 
