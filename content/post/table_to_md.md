@@ -26,7 +26,7 @@ reason, the table is beautifully rendered in the Medium story.
 Below is a screenshot from one of my story including a table made by
 Sheetsu.
 
-![1](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/1.png)
+![](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/1.png)
 
 Sheetsu offers an elegant solution in four steps.
 
@@ -42,7 +42,7 @@ Sheetsu offers an elegant solution in four steps.
 
 
 
-![2](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/2.png)
+![2](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/2.png)
 
 There is nothing new in this story so far. There is plenty of
 documentation on Google to explain this process. One shortcoming with
@@ -96,7 +96,7 @@ perform one step manually. The reason I use Selenium is, Sheetsu API
 does not render the table in Medium. Their API saves the table in a JSON
 format, which is not read by Medium.
 
-Let's begin, you can install the program with this command. We will
+Let's begin, you can install the program with this command `pip install git+https://github.com/thomaspernet/table_to_medium`. We will
 proceed in three steps:
 
 1.  Prepare the files
@@ -115,12 +115,14 @@ save the website as HTML without style.
 
 For instance, all my tutorials are stored locally.
 
-![3](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/3.png)
+![3](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/3.png)
 
 If I want to publish the first tutorial, I open the file and save it in
 HTML without style;
 
-![4](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/4.png)
+![4](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/4.png)
+
+
 
 **Step 2: Prepare Table-to-markdown**
 
@@ -128,13 +130,13 @@ This step helps you to get your token in Medium. You will need it later
 to publish your story. Go to settings in Medium and copy somewhere your
 token.
 
-![5](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/5.png)
-
 **Step 3: launch the code**
 
 The program is divided into four part
 
-![6](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/6.png)
+![6](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/6.png)
+
+
 
 **Step 1: extract and populate Google Spreadsheet**
 
@@ -145,15 +147,15 @@ We need to declare two variables:
 
 -   The Url
     `https://thomaspernet.netlify.com/tensorflow/what-is-machine-learning/`
-
 -   The path where we stored our Google authorization. You can follow
     this tutorial to get your Access Google APIs
     `/users/Thomas/Oath_Docker_Gcloud/Google_auth/`
 
-    import import_medium as md
-    
-    url = "https://thomaspernet.netlify.com/tensorflow/what-is-machine-learning/"
-    path = '/users/Thomas/Oath_Docker_Gcloud/Google_auth/'
+```python
+url = "https://thomaspernet.netlify.com/tensorflow/what-is-machine-learning/"
+path = '/users/Thomas/Oath_Docker_Gcloud/Google_auth/'
+import import_medium as md
+```
 
 Then we declare the variable
 
@@ -164,7 +166,7 @@ make_table = md.Spreadsheet(url = url, path = path)
 If you want to know how many tables will be extracted, you can use this
 code
 
-```pyto
+```python
 print(make_table.count_table())
 ```
 
@@ -184,7 +186,7 @@ information:
 
 -   The ID of the spreadsheet
 
-![7](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/7.png)
+![7](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/7.png)
 
 **Step 2: Automate table creation in Sheetsu**
 
@@ -216,7 +218,7 @@ list_sheetsu
 Make sure you have saved the HTML without style locally and copied the
 path.
 
-![8](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/8.png)
+![8](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/8.png)
 
 We can define two new variables, the path of the HTML and the path where
 we want to store the markdown file. Note that, the markdown file will be
@@ -252,7 +254,7 @@ table_md.bs_change_table(list_i = list_sheetsu)
 The program tells us the file is ready to publish. We can have a look at
 the markdown file.
 
-![9](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/9.png)
+![9](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/9.png)
 
 We are ready to publish the article on markdown.
 
@@ -352,4 +354,4 @@ You should see a message confirming the spreadsheets have been deleted.
 
 The details of the program is listed below
 
-![10](/Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/static/post/table_to_medium/10.png)
+![10](https://github.com/thomaspernet/thomaspernet/raw/master/static/post/table_to_medium/10.png)
