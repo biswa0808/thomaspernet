@@ -321,5 +321,35 @@ source activate hello-tf
 jupyter notebook
 ```
 
+### Publish Medium
+
+```
+### Chznge pciture path
+cd /Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/medium/
+find . -type f -name "*.md" -exec sed -i'' -e 's/<img src="/<img src="https:\/\/github.com\/thomaspernet\/Tensorflow\/raw\/master/g' {} +
+
+rm *.md-e
+
+## GEt rid first line
+
+for x in *.md; do
+  tail -n +18 <"$x" >"$x.tmp"
+  mv "$x.tmp" "$x"
+done
+
+rm *.md-e
+
+```
 
 
+
+```
+
+cd /Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/medium/
+find . -type f -name "*.md" -exec sed -i'' -e 's/<img src="/<img src="https:\/\/github.com\/thomaspernet\/Tensorflow\/raw\/master/g' {} +
+
+rm *.md-e
+
+markdown-to-medium ./test.md --token=293152e4373b82ebfe11406e899467bbaceba21efc68ee2c799fcd071a2deda86
+
+```
