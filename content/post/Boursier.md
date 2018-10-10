@@ -132,7 +132,7 @@ Pour créer les fichiers Word, il faut utiliser la fonction `write_word()` dans 
 Pour connaitre les URL collecter pour une valeur, il est possible d'utiliser la fonction `get_url()` qui comporte un seul argument, la valeur recherchée
 
 ```python
-Scrap.get_url("wall-street")
+Scrap.get_url("renautl")
 ```
 
 Chaque fichier Word va être nommer de la façon suivante:
