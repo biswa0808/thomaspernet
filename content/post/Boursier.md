@@ -186,3 +186,37 @@ valeur_2 = ["C", "D"]
 Scrap.wd_md_wd(value = valeur_2, name_final = "C_D")
 ```
 
+Full Code
+
+
+
+```python
+import datetime
+import time
+#import scrap_title as bt
+import Boursier as br
+### Parameters
+url = "https://www.boursier.com/actualites/news-du-jour/20181009"
+#### URL current day
+# https://www.boursier.com/actualites/news-du-jour
+horaire_debut = datetime.datetime.strptime('2018-10-09T00:00:00', "%Y-%m-%dT%H:%M:%S")
+horaire_fin = datetime.datetime.strptime('2018-10-09T13:00:00', "%Y-%m-%dT%H:%M:%S")
+value =["wall-street","renault"]
+
+
+Scrap = br.extract_content_Boursier(url = url, horaire_debut = horaire_debut, horaire_fin = horaire_fin)
+
+### Create word files
+[Scrap.write_word(value = x) for x in value]
+
+### Update word files
+horaire_debut = datetime.datetime.strptime('2018-10-09T13:00:01', "%Y-%m-%dT%H:%M:%S")
+horaire_fin = datetime.datetime.strptime('2018-10-09T23:00:00', "%Y-%m-%dT%H:%M:%S")
+Scrap = br.extract_content_Boursier(url = url, horaire_debut = horaire_debut, horaire_fin = horaire_fin)
+
+[Scrap.update_word(value = x) for x in value]
+
+### Combine word files
+Scrap.wd_md_wd(value = value, name_final = "wall_street_renault")
+```
+
