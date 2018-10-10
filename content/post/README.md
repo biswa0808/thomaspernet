@@ -81,7 +81,7 @@ Notez qu'il est nécéssaire de modifier également la date.
 
 L'horaire de fin définit la seconde borne de l'interval de temps, c'est à dire, lorsque la collecte doit s'arrêter. Par exemple, la collecte peut être réalisée jusqu'à treize heures.
 
-- `datetime.datetime.strptime('2018-10-009T13:00:00', "%Y-%m-%dT%H:%M:%S")`
+- `datetime.datetime.strptime('2018-10-09T13:00:00', "%Y-%m-%dT%H:%M:%S")`
 
 **Valeur**
 
