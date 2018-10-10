@@ -111,7 +111,7 @@ import Boursier as br
 
 url = "https://www.boursier.com/actualites/news-du-jour/20181009"
 horaire_debut = datetime.datetime.strptime('2018-10-09T00:00:00', "%Y-%m-%dT%H:%M:%S")
-horaire_fin = datetime.datetime.strptime('2018-10-009T13:00:00', "%Y-%m-%dT%H:%M:%S")
+horaire_fin = datetime.datetime.strptime('2018-10-09T13:00:00', "%Y-%m-%dT%H:%M:%S")
 value =["wall-street","renault"]
 ```
 
