@@ -279,6 +279,15 @@ cd /Users/Thomas/Dropbox/Learning/GitHub/project/Tensorflow/
 
 cp /Users/Thomas/Dropbox/Learning/GitHub/project/thomaspernet/content/tensorflow/*.md /Users/Thomas/Dropbox/Learning/GitHub/project/Tensorflow/
 
+#### TEmp
+cd /Users/Thomas/Dropbox/Project/GitHub/project/thomaspernet/medium/
+
+find . -type f -name "11_introduction-to-tensorflow.md" -exec sed -i'' -e 's/<img src="/![](https:\/\/github.com\/thomaspernet\/Tensorflow\/raw\/master/g' {} +
+
+find . -type f -name "11_introduction-to-tensorflow.md" -exec sed -i'' -e 's/" >/)/g' {} +
+
+#################
+
 find . -type f -name "*.md" -exec sed -i'' -e 's/<img src="/![](https:\/\/github.com\/thomaspernet\/Tensorflow\/blob\/master/g' {} +
 
 find . -type f -name "*.md" -exec sed -i'' -e 's/" >/)/g' {} +
