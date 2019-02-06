@@ -2,7 +2,7 @@
 title: Pollution and Structural Transformation
 author: Thomas
 date: []
-slug: China
+slug: Structural-Transformation
 categories: []
 tags:
   - academic
