@@ -13,7 +13,7 @@ weight = 50
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "Academic"
+folder = "academic"
 
 # View.
 # Customize how projects are displayed.
@@ -30,8 +30,8 @@ filter_default = 0
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
-  name = "Research"
-  tag = "China"
+  name = "All"
+  tag = "*"
 
 
 +++

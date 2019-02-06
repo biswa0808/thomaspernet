@@ -5,11 +5,16 @@ date: []
 slug: Structural-Transformation
 categories: []
 tags:
-  - academic
+  - China
 header:
   caption: ''
   image: ''
 ---
+
+<style>
+body {
+text-align: justify}
+</style>
 
 ## Key Facts
 
