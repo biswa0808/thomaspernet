@@ -1,7 +1,15 @@
-
-
-
-# Proposal Pollution and Structural Transformation
+---
+title: Pollution and Structural Transformation
+author: Thomas
+date: []
+slug: China
+categories: []
+tags:
+  - academic
+header:
+  caption: ''
+  image: ''
+---
 
 ## Key Facts
 
