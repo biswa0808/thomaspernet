@@ -36,6 +36,10 @@ The chinese economy is stressing an export-oriented growth model, with a predomi
 
 In this paper, we propose to establish a link between the quality enhancement of the Chinese economy and its impact on the environment.
 
+Quality can be proxy by price, although in this paper, we will compute a more sophisticated index, known as the Kandhelwal index. The graph below plots the relationship between the average price index of exported merchandise and the SO3 emission. The effect on price is not clear. We may be tempted to say the pollution level follows the price index, or a thiner analysis might reveal a more promising results. 
+
+<iframe width="600" height="317" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/qQxh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ## Quality and Environment
 
 The Chinese economy is producing goods with better quality than ever. The shift toward better quality goods occured with the liberalization of the economy and a greater pool of firms engaged in the ordinary trade. Recents finding have highlighted that ordinary trade is not beneficial for the environment compared with processing trader. The objective of the paper is to show that ordinary trade can be helpful for the enviromnent when they make the effort of increasing the production structure.
