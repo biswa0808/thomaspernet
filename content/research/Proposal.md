@@ -20,19 +20,19 @@ text-align: justify}
 
 China is a first class player in the world economy for the trade, growth, technology but China is also notorious for being a major polluter. China gradually became the world's No.1 carbon dioxide emitter few years after joing the WTO. There is no other country in the world with a sharp increase as China. In fact, major developed countries have either stabilized or reduced the carbon dioxide emission. 
 
-<iframe width="600" height="317" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/Tohh" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/Tohh" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 The carbon dioxide emission started to increase when China opened its economy to the world in 1978. A vital moment in the Chinese economy occured in 2001 with the accession to the WTO. China rapidly grow into the factory of the World, exporting goods and manuctured products everywhere in the world. In 2005, the Chinese economy dethroned the US in the merchandised exported. Since then, China never stopped to increase the gap with the other economies
 
-<iframe width="600" height="317" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/p5hh" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/p5hh" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 A closer look between the emission of SO3 and the merchandirse exported by China despicted a clear positive correlation. The pollution in China is driven by the amount of merchandise exported to the rest of the world. In more recent year, the emission of carbon dioxide appears to slow down as it follow a decrease in the export. 
 
-<iframe width="600" height="317" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/x8hh" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/x8hh" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 The chinese economy is stressing an export-oriented growth model, with a predominance for processing activities. This economic system were relevant at the begining of the development stage but quickly reaches its limit. The leaders of China are fully aware that significant progress has to be achieved in the need for quality growth. Xi Jinping launched a series of reforms to improve the lack of coordination and a more inclusive, green, innovation-driven growth and pollution free industries. 
 
-<iframe width="600" height="317" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/sGih" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/1tMowiEW1NbF3L_5PjF7cfQoY-vEcRV1I/page/sGih" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 In this paper, we propose to establish a link between the quality enhancement of the Chinese economy and its impact on the environment.
 
