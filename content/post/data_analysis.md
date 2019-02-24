@@ -11,8 +11,6 @@ header:
 
 ---
 
-# Data_analysis_econometrics
-
 ## Equation
 
 This library proposes to define a very simple way to describe data from an equation. The explanatory data analysis is one of the first step to perform before proceeding to the modeling part. A strong and rigorous data analysis helps to anticipate and by some extent highlights potential issues that the model can face during the estimation. Besides, during the EDA, some unexplored important features can be detected, like non-linearity or outliers. 
