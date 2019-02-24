@@ -35,7 +35,7 @@ The library is composed by four modules:
 
 - `preprocessing`: Prepare the dataset
 - `categorical`: visualize categorical data
-- `continuous: visualize continuous data
+- `continuous`: visualize continuous data
 - `mixe`:  visualize mixes of continuous and categorical data
 
 The researcher needs to define an equation on its own, with the first value is the independent variables while the following values are the dependent variables. The orders from the RHS variables does not matter. So far, the library works only when the Y is a continuous variables and the RHS variables cannot be quadratic, interacted within each other. Besides, the library does not take care of the outliers yet!
@@ -68,7 +68,7 @@ The dataset is composed by six variables:
     - ordinary traders:  一般贸易
 - `city_prod`: up to 250 Chinese city
 - `HS_3`:  Up to 100 industries
-- `Date: Trade data from 2000 to 2010
+- `Date`: Trade data from 2000 to 2010
 
 The dataset has more than 400k observations. 
 
