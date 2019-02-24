@@ -21,7 +21,7 @@ The starting point of this library is an econometrics equation to estimate. From
 
 An equation has the following form:
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/0.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/0.png" >
 
 The goal is to analyze the variance of the independent variables on Y. To extract major insights, we distinguish two types of categorical variable. We call the first type `i`,  `low dimensional` which gather less than five unique groups. By analogy, the second type is `high dimensional` groups. The second group is highly important to analyze because of the large heterogeneity between unique groups, so dramatically affect the estimation if not treated carefully.
 
@@ -51,7 +51,7 @@ Once the equation is defined, the library will project four different analysis f
 
 Note that, the library does not shows one way fixed effect and does not show graph between fixed effect and the dependent variable yet. 
 
-A jupyter notebook is available [here](https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/Example_1.ipynb) with an example. 
+A jupyter notebook is available [here](https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/Example_1.ipynb) with an example. 
 
 ## Example
 
@@ -74,7 +74,7 @@ The dataset has more than 400k observations.
 
 The purposes is to estimate the following equation:
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/0_1.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/0_1.png" >
 
 The types of data are distributed as follow:
 
@@ -95,11 +95,11 @@ The first step requires to define the equation as a list, and determine the time
 
 The reconstructed dataset,
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/1.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/1.png" >
 
 A dictionary with the new equation to estimate and the type of data
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/2.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/2.png" >
 
 The preprocessing steps generates the list of all possibles combination between the categorical variables and continuous variables for each different kinds of plots and tests. The researcher can use a list comprehension to iterate over all possibles choices for each group of analysis. Some example are explicitly provided in the Jupyter notebook.
 
@@ -109,11 +109,11 @@ The first group of graphs displays the evolution of the dependent variable with 
 
 **Evolution of sum of value with year**
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/3.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/3.png" >
 
 **Distribution of sum of value with year**
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/4.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/4.png" >
 
 ### Categorical analysis
 
@@ -121,11 +121,11 @@ The second analysis plots the count of observation for each group. It evaluates 
 
 **Count of observation**
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/5.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/5.png" >
 
 **Dependency test**
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/6.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/6.png" >
 
 ### Mix analysis
 
@@ -133,15 +133,15 @@ The third group of graphs mixes the different low dimensional variables with the
 
 The first bunch of graphs shows the distribution the the `sum_value` and each low dimensional variable. The third graph demonstrates the empirical cumulated distribution while the fourth graph displays the coefficient of variation for each group
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/7.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/7.png" >
 
 Next, the scatterplot matrix highlights the relationship between all the continuous variables.
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/8.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/8.png" >
 
 Last, we can see if each continuous variable are distributed differently by low dimensional group against the dependent variable.
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/9.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/9.png" >
 
 ### Focus on fixed effect
 
@@ -151,13 +151,13 @@ At last, the analysis ends up by showing different perspective of the fixed effe
 
 To begin with, we plot an heatmap of the average values of the dependent variable for each high dimensional variable. 
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/10.png" ><img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/11.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/10.png" ><img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/11.png" >
 
 **Average log transformed dependent variable by high dimensial group**
 
 The next graph provides a different view of the relationship between the **transformed** dependent variable and the high dimensional variable. the function sort the average values of `sum_value_log` for each high dimensional variables and plot them.
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/12.png" ><img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/13.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/12.png" ><img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/13.png" >
 
 **Rank dependent variable with low/high dimensional**
 
@@ -167,10 +167,10 @@ First of all, we computed the average `sum_value_log` by `city_prod` and `Trade_
 
 We want to see if the best cities,  ie high dimensional, in terms of value exported, (dependent variable), remains the best for each trade type, ie low dimensional.
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/14.png" ><img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/15.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/14.png" ><img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/15.png" >
 
 **Count of observation by fixed effect**
 
 The last plot shows the count of observation for each pair of fixed effect, namely two-ways. The plot helps to visualize where the most observations are concentrated. A darker red value shows a strong number of observations while gray values emphasize only one count. We need to focus on those single observation since there are likely to affect the final estimate. The blue values indicates no observation.
 
-<img src="https://github.com/thomaspernet/Data_analysis_econometrics/blob/master/img/16.png" >
+<img src="https://github.com/thomaspernet/Data_analysis_econometrics/raw/master/img/16.png" >
