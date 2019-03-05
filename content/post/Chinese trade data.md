@@ -1,3 +1,16 @@
+---
+title: Chinese Trade Data 2000-2010
+author: thomas
+date: '2019-03-05'
+slug: []
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+
+---
+
 # Normalisation Chinese Trade Data 2000-2010
 
 This program proposes to normalise the **Chinese Trade Data** in a very simple way. The workflow for this project is very simple, the data is ingested from Google Cloud Storage, and then we normalise the data with Python and Stata. In the last stage of the pipeline, the output data is stored both in Google Cloud Storage and Big Query. 
@@ -81,7 +94,7 @@ For the standardisation process, we naturally choose 2007 as a threshold to take
 
 The diagram below shows the pipeline
 
-<img src="https://github.com/thomaspernet/Chinese_Trade_Data/blob/master/img/1.png">
+<img src="https://github.com/thomaspernet/Chinese_Trade_Data/raw/master/img/1.png">
 
 The overall process is in the file named `01_all_process.sh`  and a jupyter notebook. The `sh` file deals with the Stata part while Python takes care of the remaining stages. 
 
